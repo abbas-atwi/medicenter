@@ -294,13 +294,13 @@ footer {
 .footer_healine {
 }
 
-@media (max-width: 450px) {
+@media (min-width: 430px) {
   .banner_options {
   }
 
   .widget-column {
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 50px;
   }
 }
 .widget {
