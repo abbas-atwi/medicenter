@@ -225,7 +225,7 @@ article {
 
 .flex-aside {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 .flex-aside div {
   flex: 1;
@@ -301,6 +301,16 @@ footer {
   .widget-column {
     flex-direction: column;
     margin-top: 50px;
+  }
+  .flex-aside {
+    background-color: red;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+  .flex-aside div {
+    min-width: 450px;
+    min-height: 450px;
   }
 }
 .widget {
