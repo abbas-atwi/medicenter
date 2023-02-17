@@ -294,30 +294,15 @@ footer {
 .footer_healine {
 }
 
-@media (max-width: 650px) {
-  .section-widget {
-    margin-top: 130px;
-  }
-
-  .widget {
-    /* margin-bottom: 500px; */
-    /* background-color: red; */
-  }
-  .banner_headline {
-    text-align: center;
-    /* background-color: red; */
-  }
-}
-
 @media (min-width: 450px) {
-  .banner_headline {
-    text-align: center;
-    align-items: center;
+  .banner_options {
   }
-  .widget {
-    margin-top: calc(100px - 50px);
-  }
+
   .widget-column {
     flex-direction: column;
+    margin-top: 300px;
   }
+}
+.widget {
+  /* flex-direction: ; */
 }
