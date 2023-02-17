@@ -307,6 +307,9 @@ footer {
     text-align: center;
     /* background-color: red; */
   }
+}
+
+@media (min-width: 450px) {
   .widget-column {
     flex-direction: column;
   }
