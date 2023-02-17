@@ -309,11 +309,11 @@ footer {
   }
 }
 
-@media (max-width: 450px) {
+@media (min-width: 450px) {
   .widget-column {
     flex-direction: column;
   }
-  .banner_options {
+  .banner {
     /* flex-direction: column; */
     height: 400px;
     background-color: red;
@@ -322,5 +322,8 @@ footer {
     text-align: center;
     align-items: center;
     background-color: red;
+  }
+  .widget-column {
+    margin-top: 150px;
   }
 }
