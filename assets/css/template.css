@@ -97,7 +97,7 @@ nav a:hover {
   color: #fff;
   padding: 20px;
 }
-@media (max-width: 710px) {
+@media (min-width: 710px) and (max-width: 450px) {
   .banner1,
   .banner2,
   .banner3 {
