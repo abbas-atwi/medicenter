@@ -313,4 +313,14 @@ footer {
   .widget-column {
     flex-direction: column;
   }
+  .banner_options {
+    /* flex-direction: column; */
+    height: 400px;
+    background-color: red;
+  }
+  .banner_headline {
+    text-align: center;
+    align-items: center;
+    background-color: red;
+  }
 }
