@@ -310,17 +310,14 @@ footer {
 }
 
 @media (min-width: 450px) {
-  .widget-column {
-    flex-direction: column;
-  }
-
   .banner_headline {
     text-align: center;
     align-items: center;
-    background-color: red;
   }
   .widget {
     margin-top: calc(100px - 50px);
-    background-color: red;
+  }
+  .widget-column {
+    flex-direction: column;
   }
 }
