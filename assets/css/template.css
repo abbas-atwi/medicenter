@@ -294,7 +294,7 @@ footer {
 
 .footer_healine {
 }
-@media (min-width: 450px) and (max-width: 650px) {
+@media (min-width: 400px) and (max-width: 650px) {
   .widget-column {
     flex-direction: column;
     margin-top: 280px;
