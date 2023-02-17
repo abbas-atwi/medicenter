@@ -294,7 +294,7 @@ footer {
 .footer_healine {
 }
 
-@media (max-width: 450px) {
+@media (min-width: 450px) {
   .section-widget {
     /* margin-top: 150px; */
   }
