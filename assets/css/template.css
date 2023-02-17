@@ -294,7 +294,7 @@ footer {
 
 .footer_healine {
 }
-@media (max-width: 360px) {
+@media (min-width: 450px) and (max-width: 650px) {
   .widget-column {
     flex-direction: column;
     margin-top: 280px;
@@ -318,7 +318,7 @@ footer {
   }
   .banner_options {
     /* flex: 1; */
-    flex-direction: row;
+    /* flex-direction: row; */
     /* height: 300px; */
     /* height: 350px; */
     flex-wrap: wrap;
@@ -333,7 +333,4 @@ footer {
     /* background-color: yellow; */
     flex: 1 1 980px;
   }
-}
-.widget {
-  /* flex-direction: ; */
 }
