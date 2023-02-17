@@ -225,11 +225,12 @@ article {
 
 .flex-aside {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .flex-aside div {
   flex: 1;
   margin-bottom: 30px;
+  /* flex-direction: column; */
   min-width: 140px;
   min-height: 140px;
   margin-right: 20px;
@@ -293,8 +294,7 @@ footer {
 
 .footer_healine {
 }
-
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   .widget-column {
     flex-direction: column;
     margin-top: 280px;
@@ -303,11 +303,12 @@ footer {
     /* background-color: red; */
     flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .flex-aside div {
-    min-width: 80%;
-    min-height: 600px;
+    min-width: 300px;
+    min-height: 300px;
   }
   .widget_body.flex {
     flex-direction: column;
@@ -325,7 +326,10 @@ footer {
   }
   .banner1,
   .banner2,
-  .banner3 {
+  .banner3,
+  .footer_banner1,
+  .footer_banner2,
+  .footer_banner3 {
     /* background-color: yellow; */
     flex: 1 1 980px;
   }
