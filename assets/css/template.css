@@ -294,15 +294,17 @@ footer {
 .footer_healine {
 }
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   .section-widget {
-    /* margin-top: 150px; */
+    margin-top: 200px;
   }
 
-  .widget-column {
-    flex-direction: column;
+  .widget {
+    margin-bottom: 500px;
+    /* background-color: red; */
+  }
+  .banner_headline {
+    text-align: center;
+    /* background-color: red; */
   }
 }
-/* .widget-column {
-  flex-direction: column;
-} */
