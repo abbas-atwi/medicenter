@@ -93,10 +93,21 @@ nav a:hover {
 .banner1,
 .banner2,
 .banner3 {
-  flex: 1 1 200px;
+  flex: 1 1 232px;
   color: #fff;
   padding: 20px;
 }
+@media (max-width: 710px) {
+  .banner1,
+  .banner2,
+  .banner3 {
+    flex: 1 1 696px;
+  }
+  .section-widget {
+    margin-top: 280px;
+  }
+}
+
 .banner1 {
   background-color: #39aae1;
 }
@@ -272,7 +283,7 @@ footer {
 .footer_banner1,
 .footer_banner2,
 .footer_banner3 {
-  flex: 1 1 340px;
+  flex: 1 1 252px;
   padding: 20px;
 }
 .footer_banner1 {
@@ -293,45 +304,4 @@ footer {
 }
 
 .footer_healine {
-}
-@media (max-width: 300px) {
-  .widget-column {
-    flex-direction: column;
-    margin-top: 280px;
-  }
-  .flex-aside {
-    /* background-color: red; */
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-  }
-  .flex-aside div {
-    flex: 1 1 300px;
-    min-height: 300px;
-    margin: 10px;
-  }
-  .widget_body.flex {
-    flex-direction: column;
-  }
-  .container.column {
-    /* flex-direction: row; */
-  }
-  .banner_options {
-    /* flex: 1; */
-    /* flex-direction: row; */
-    /* height: 300px; */
-    /* height: 350px; */
-    flex-wrap: wrap;
-    /* background-color: red; */
-  }
-  .banner1,
-  .banner2,
-  .banner3,
-  .footer_banner1,
-  .footer_banner2,
-  .footer_banner3 {
-    /* background-color: yellow; */
-    flex: 1 1 980px;
-  }
 }
