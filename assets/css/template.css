@@ -309,7 +309,7 @@ footer {
   }
 }
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
   .widget-column {
     flex-direction: column;
   }
