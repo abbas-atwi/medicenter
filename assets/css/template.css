@@ -151,6 +151,9 @@ nav a {
   .options-3 {
     flex: 1 1 694px;
   }
+  .section-body {
+    margin-top: 130px;
+  }
 }
 
 .options-1 {
@@ -161,4 +164,55 @@ nav a {
 }
 .options-3 {
   background-color: #2b4c9a;
+}
+
+/* section body */
+.section-body {
+  display: flex;
+  justify-content: center;
+}
+.section-article {
+  flex: 2;
+}
+.section-div {
+  flex: 1;
+}
+/* widget config for all */
+.widget_title {
+  margin-top: 20px;
+}
+.widget_title--text {
+  color: #000;
+  font-weight: bold;
+}
+.widget_title--bar {
+  width: 50px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: #37aae3;
+}
+/* widget daily */
+.widget_daily {
+  display: flex;
+  color: #fff;
+
+  margin-top: 20px;
+}
+.widget_daily--month {
+  font-size: 12px;
+  background-color: #2b4b9a;
+  padding: 10px;
+}
+.widget_daily--comments {
+  background-color: #38aae1;
+  padding: 10px;
+  margin-left: 2px;
+}
+.widget_body {
+  margin-top: 20px;
+}
+
+.section-div {
+  display: flex;
+  flex-direction: column;
 }
